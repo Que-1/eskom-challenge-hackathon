@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff9800;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+/* Image Styling */
+.creative-img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #ff9800;
+    color: white;
+}
+
+/* Form Styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff9800;
+}
+
+/* Tariff Calculator */
+#tariff {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #00796b;
+}
